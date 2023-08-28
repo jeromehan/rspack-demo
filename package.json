@@ -1,0 +1,24 @@
+{
+  "name": "rspack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rspack serve",
+    "build": "rspack build",
+    "webpack:build": "webpack --config ./webpack.conf.js --mode none"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rspack/cli": "^0.3.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@rspack/plugin-minify": "^0.2.12",
+    "countup.js": "^1.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.88.2"
+  }
+}
